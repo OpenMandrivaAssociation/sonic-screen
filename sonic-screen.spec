@@ -6,7 +6,7 @@
 Summary:	SonicDE Display Management software
 Name:		sonic-screen
 Version:	6.6.3.1
-Release:	%{?git:0.%{git}.}1
+Release:	%{?git:0.%{git}.}2
 License:	GPLv2+
 Group:		Graphical desktop/SonicDE
 Url:		https://github.com/Sonic-DE/sonic-screen
@@ -30,7 +30,11 @@ BuildRequires:	cmake(KF6DBusAddons)
 BuildRequires:	cmake(KF6ConfigWidgets)
 BuildRequires:	cmake(KF6I18n)
 BuildRequires:	cmake(KF6XmlGui)
-BuildRequires:	cmake(KF6GlobalAccel)
+
+# pending rename
+# BuildRequires:	cmake(KF6GlobalAccel)
+BuildRequires:  %{_lib}SonicDEKeybindDaemon-devel
+
 BuildRequires:	cmake(KF6KCMUtils)
 BuildRequires:	cmake(KF6Svg)
 BuildRequires:	cmake(KF6Crash)
