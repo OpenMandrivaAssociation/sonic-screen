@@ -33,7 +33,7 @@ BuildRequires:	cmake(KF6XmlGui)
 
 # pending rename
 # BuildRequires:	cmake(KF6GlobalAccel)
-BuildRequires:  %{_lib}SonicDEKeybindDaemon-devel
+BuildRequires:  %{_lib}SonicFrameworksKeybind-devel
 
 BuildRequires:	cmake(KF6KCMUtils)
 BuildRequires:	cmake(KF6Svg)
