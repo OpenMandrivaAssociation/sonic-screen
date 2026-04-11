@@ -5,15 +5,15 @@
 
 Summary:	SonicDE Display Management software
 Name:		sonic-screen
-Version:	6.6.3.1
-Release:	%{?git:0.%{git}.}2
+Version:	6.6.4
+Release:	%{?git:0.%{git}.}1
 License:	GPLv2+
 Group:		Graphical desktop/SonicDE
 Url:		https://github.com/Sonic-DE/sonic-screen
 # %if 0%{?git:1}
 # Source0:	https://invent.kde.org/plasma/kscreen/-/archive/%{gitbranch}/kscreen-%{gitbranchd}.tar.bz2#/kscreen-%{git}.tar.bz2
 # %else
-Source0:	%url/archive/refs/tags/%version.tar.gz#/%name-%version.tar.gz
+Source0:	%url/archive/%version/%name-%version.tar.gz
 # %endif
 
 BuildRequires:	cmake(KF6Declarative)
