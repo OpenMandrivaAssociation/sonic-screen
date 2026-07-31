@@ -5,7 +5,7 @@
 
 Summary:	SonicDE Display Management software
 Name:		sonic-screen
-Version:	6.6.5
+Version:	6.7.3
 Release:	%{?git:0.%{git}.}1
 License:	GPLv2+
 Group:		Graphical desktop/SonicDE
