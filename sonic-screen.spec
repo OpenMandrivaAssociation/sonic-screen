@@ -53,6 +53,9 @@ BuildRequires:  cmake(Qt6QuickControls2)
 BuildRequires:	pkgconfig(xcb-atom)
 BuildRequires:	pkgconfig(xi)
 BuildRequires:	pkgconfig(xkbcommon)
+BuildRequires:	cmake(KF6ItemModels)
+BuildRequires:	qml(org.kde.kitemmodels)
+BuildRequires:	qml(org.kde.plasma.plasma5support)
 BuildRequires:	cmake(ECM)
 BuildSystem:	cmake
 BuildOption:	-DBUILD_QCH:BOOL=ON
